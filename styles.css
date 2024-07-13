@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-.container {
+.container, .extra-buttons-container {
     text-align: center;
     background-color: #fff;
     padding: 20px;
@@ -47,9 +47,6 @@ h1 {
 }
 
 .extra-buttons-container {
-    width: 80%;
-    max-width: 600px;
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,11 +66,30 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s;
     margin: 5px 0;
+    display: inline-block;
 }
 
 .tip-jar-btn:hover,
 .disclaimer-btn:hover {
     background-color: #0056b3;
+}
+
+.tip-jar-btn, .disclaimer-btn {
+    box-sizing: border-box;
+}
+
+.tip-jar-btn {
+    width: auto;
+    display: inline-block;
+}
+
+.disclaimer-btn {
+    width: auto;
+    display: inline-block;
+}
+
+.tip-jar-btn, .disclaimer-btn {
+    width: calc(100% - 40px);  /* Ensure both buttons have the same width */
 }
 
 /* Modal styles */
