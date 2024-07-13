@@ -27,6 +27,10 @@ This project is hosted on GitHub Pages. To access the live site, visit [Emojivin
 
 For any inquiries or feedback, feel free to reach out: [Contact Me](mailto:joseph.jds.smith@gmail.com?subject=Emojivination)
 
+## License
+
+This project is licensed under the All Rights Reserved License. For more information, please see the [LICENSE](./LICENSE) file.
+
 ## Disclaimer
 
 By using the Emojivination service, you acknowledge that it is for entertainment purposes only. The interpretations and guidance provided by the emojis are not to be taken as professional advice or a substitute for professional services. You should always seek the advice of a qualified professional regarding any specific questions or concerns you may have. The creators of this service assume no responsibility or liability for any actions taken based on the content of this service.
