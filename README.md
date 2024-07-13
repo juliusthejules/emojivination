@@ -1,6 +1,6 @@
-# Emojivination: Emoji Divination
+# Emojivination™: Emoji Divination
 
-Welcome to **Emojivination: Emoji Divination**! This site offers a fun and mystical way to seek guidance and insight using emojis. Whether you're curious about what the future holds or just looking for a bit of entertainment, Emojivination is here to help.
+Welcome to **Emojivination™: Emoji Divination**! This site offers a fun and mystical way to seek guidance and insight using emojis. Whether you're curious about what the future holds or just looking for a bit of entertainment, Emojivination is here to help.
 
 ## Features
 
