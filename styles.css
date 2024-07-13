@@ -3,7 +3,7 @@ body {
     background-color: #f0f8ff;
     color: #333;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     margin: 0;
@@ -17,6 +17,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 80%;
     max-width: 600px;
+    margin-top: 20px;
 }
 
 h1 {
@@ -45,13 +46,18 @@ h1 {
     background-color: #0056b3;
 }
 
-/* Tip Jar and Disclaimer Button Styles */
+.extra-buttons-container {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .tip-jar-btn,
 .disclaimer-btn {
-    display: block;
     width: 100%;
-    max-width: 600px;
-    margin: 10px auto;
     padding: 10px 20px;
     background-color: #007BFF;
     color: white;
@@ -62,6 +68,7 @@ h1 {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin: 5px 0;
 }
 
 .tip-jar-btn:hover,
