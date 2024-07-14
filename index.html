@@ -4,7 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emojivination: Emoji Divination</title>
+   
+   <!--PWA Begin-->
     <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/png" sizes="192x192" href="./icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="256x256" href="./icon-256x256.png">
+  <link rel="icon" type="image/png" sizes="384x384" href="./icon-384x384.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./icon-512x512.png">
+  <link rel="manifest" href="./app.webmanifest">
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then(registration => {
+            console.log('Service Worker registered with scope:', registration.scope);
+          })
+          .catch(error => {
+            console.error('Service Worker registration failed:', error);
+          });
+      });
+    }
+  </script>
+   <!--PWA End-->
     
 <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Emojivination: Emoji Divination">
