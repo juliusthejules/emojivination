@@ -25,11 +25,11 @@ This project is hosted on GitHub Pages. To access the live site, visit [Emojivin
 
 ## Contact
 
-For any inquiries or feedback, feel free to reach out: [Contact Me](mailto:joseph.jds.smith@gmail.com?subject=Emojivination)
+For any inquiries or feedback, feel free to reach out: [Contact Me](mailto:juliusthejulessp@duck.com?subject=Emojivination)
 
 ## License
 
-This project is licensed under the All Rights Reserved License. For more information, please see the [LICENSE](./LICENSE) file.
+This project is licensed under the All Rights Reserved License and belongs to Joseph D. Smith/Julius the Jules, SP. For more information, please see the [LICENSE](./LICENSE) file.
 
 ## Disclaimer
 
